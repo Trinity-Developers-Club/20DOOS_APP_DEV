@@ -17,7 +17,6 @@
 - Try to make good contributions instead of number of contributions.
 - Whoever makes most valid and good contributions will be declared as the winner.
 - Judgement criteria is shared on Discord.
-- On Monday Oct 5,2022 , there will be an introduction session for you all and details related to that will be shared soon.
 
 For your PR to count it must be:
 
@@ -43,23 +42,23 @@ For your PR to count it must be:
 
 - You can cotribute any mobile app in any language java/kotlin/swift/etc...
 - While adding any content it should be inside its appropiate directory.
-- if there is any problem with any app create an issue!
+- If there is any problem with any app create an issue!
 
 ## How you can contribute to this repo
 
 - This repo is blank at initial stage.
 - You have to **add a folder** of your name.
 - You have to **add you app** in your folder with proper `README.md` in that folder.
-- you can **update existing app** with its better version and with new feature.
+- You can **update existing app** with its better version and with new feature.
 - Participants can even **add desktop app** if they want.
-- **solve issues** raised by other people or yourself.
+- **Solve issues** raised by other people or yourself.
 
 ## Steps For Contribution
 
     1. Fork this repo
     2. Star this repo
     3. Add your folder
-    4. commit the code
+    4. Commit the code
     5. Make pull request
 
 --

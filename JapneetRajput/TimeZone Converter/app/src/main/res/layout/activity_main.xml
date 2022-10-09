@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00BFFF"
+    tools:context=".Splash">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TimeZone Converter"
+        android:textColor="#FFFFFF"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.649" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/logo_final_final" />
+
+    <!--    xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--    xmlns:tools="http://schemas.android.com/tools"-->
+    <!--    android:id="@+id/namelayout"-->
+    <!--    android:layout_width="match_parent"-->
+    <!--    android:layout_height="match_parent"-->
+    <!--    android:background="@drawable/gradient"-->
+    <!--    android:label="@string/app_name"-->
+    <!--    tools:context=".MainActivity">-->
+
+
+    <!--    &lt;!&ndash;    <TextView&ndash;&gt;-->
+    <!--    &lt;!&ndash;        android:id="@+id/editText"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        android:layout_width="wrap_content"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        android:layout_height="wrap_content"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        android:ems="10"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        android:inputType="textPersonName"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        android:text="Time"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        android:textSize="20sp"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        app:layout_constraintBottom_toBottomOf="parent"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        app:layout_constraintEnd_toEndOf="parent"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        app:layout_constraintHorizontal_bias="0.24"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        app:layout_constraintStart_toStartOf="parent"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        app:layout_constraintTop_toTopOf="parent"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        app:layout_constraintVertical_bias="0.108" />&ndash;&gt;-->
+
+    <!--    &lt;!&ndash;    <com.toptoche.searchablespinnerlibrary.SearchableSpinner&ndash;&gt;-->
+    <!--    &lt;!&ndash;        android:id="@+id/seconds"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        android:layout_width="wrap_content"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        android:layout_height="wrap_content"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        app:layout_constraintBottom_toBottomOf="parent"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        app:layout_constraintEnd_toEndOf="parent"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        app:layout_constraintHorizontal_bias="0.8"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        app:layout_constraintStart_toStartOf="parent"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        app:layout_constraintTop_toTopOf="parent"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        app:layout_constraintVertical_bias="0.099" />&ndash;&gt;-->
+
+    <!--    &lt;!&ndash;    <com.toptoche.searchablespinnerlibrary.SearchableSpinner&ndash;&gt;-->
+    <!--    &lt;!&ndash;        android:id="@+id/hours"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        android:layout_width="wrap_content"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        android:layout_height="wrap_content"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        android:layout_marginEnd="24dp"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        android:layout_marginRight="24dp"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        app:layout_constraintBottom_toBottomOf="parent"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        app:layout_constraintEnd_toEndOf="parent"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        app:layout_constraintHorizontal_bias="0.4"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        app:layout_constraintStart_toStartOf="parent"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        app:layout_constraintTop_toTopOf="parent"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        app:layout_constraintVertical_bias="0.099" />&ndash;&gt;-->
+
+    <!--    &lt;!&ndash;    <com.toptoche.searchablespinnerlibrary.SearchableSpinner&ndash;&gt;-->
+    <!--    &lt;!&ndash;        android:id="@+id/minutes"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        android:layout_width="wrap_content"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        android:layout_height="wrap_content"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        app:layout_constraintBottom_toBottomOf="parent"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        app:layout_constraintEnd_toEndOf="parent"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        app:layout_constraintHorizontal_bias="0.6"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        app:layout_constraintStart_toStartOf="parent"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        app:layout_constraintTop_toTopOf="parent"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        app:layout_constraintVertical_bias="0.099" />&ndash;&gt;-->
+
+    <!--    <RelativeLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"-->
+    <!--        tools:context=".MainActivity"-->
+    <!--        tools:layout_editor_absoluteX="-67dp">-->
+
+    <!--        <com.scwang.wave.MultiWaveHeader-->
+    <!--            android:id="@+id/wave_header"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="70dp" />-->
+
+    <!--        <com.scwang.wave.MultiWaveHeader-->
+    <!--            android:id="@+id/wave_footer"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="70dp"-->
+    <!--            android:layout_alignParentBottom="true"-->
+    <!--            android:scaleY="-1" />-->
+
+    <!--    </RelativeLayout>-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/textView"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_alignParentStart="true"-->
+    <!--        android:layout_alignParentLeft="true"-->
+    <!--        android:layout_alignParentTop="true"-->
+    <!--        android:layout_alignParentEnd="true"-->
+    <!--        android:layout_alignParentRight="true"-->
+    <!--        android:layout_alignParentBottom="true"-->
+    <!--        android:textColor="#000000"-->
+    <!--        android:textSize="16sp"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.498"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"-->
+    <!--        app:layout_constraintVertical_bias="0.812" />-->
+
+    <!--    <com.toptoche.searchablespinnerlibrary.SearchableSpinner-->
+    <!--        android:id="@+id/FromCountry"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        app:hintText="Country"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.652"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"-->
+    <!--        app:layout_constraintVertical_bias="0.457" />-->
+
+    <!--    <com.toptoche.searchablespinnerlibrary.SearchableSpinner-->
+    <!--        android:id="@+id/ToCountry"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        app:hintText="Country"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.654"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"-->
+    <!--        app:layout_constraintVertical_bias="0.545" />-->
+
+    <!--    &lt;!&ndash;    <TextView&ndash;&gt;-->
+    <!--    &lt;!&ndash;        android:id="@+id/h"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        android:layout_width="wrap_content"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        android:layout_height="wrap_content"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        android:text="h"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        android:textSize="16sp"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        app:layout_constraintBottom_toBottomOf="parent"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        app:layout_constraintEnd_toEndOf="parent"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        app:layout_constraintHorizontal_bias="0.375"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        app:layout_constraintStart_toStartOf="parent"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        app:layout_constraintTop_toTopOf="parent"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        app:layout_constraintVertical_bias="0.1136" />&ndash;&gt;-->
+
+    <!--    &lt;!&ndash;    <TextView&ndash;&gt;-->
+    <!--    &lt;!&ndash;        android:id="@+id/h2"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        android:layout_width="wrap_content"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        android:layout_height="wrap_content"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        android:text="s"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        android:textSize="16sp"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        app:layout_constraintBottom_toBottomOf="parent"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        app:layout_constraintEnd_toEndOf="parent"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        app:layout_constraintHorizontal_bias="0.722"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        app:layout_constraintStart_toStartOf="parent"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        app:layout_constraintTop_toTopOf="parent"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        app:layout_constraintVertical_bias="0.114" />&ndash;&gt;-->
+
+    <!--    &lt;!&ndash;    <TextView&ndash;&gt;-->
+    <!--    &lt;!&ndash;        android:id="@+id/h3"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        android:layout_width="wrap_content"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        android:layout_height="wrap_content"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        android:text="@string/m"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        android:textSize="16sp"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        app:layout_constraintBottom_toBottomOf="parent"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        app:layout_constraintEnd_toEndOf="parent"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        app:layout_constraintHorizontal_bias="0.57"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        app:layout_constraintStart_toStartOf="parent"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        app:layout_constraintTop_toTopOf="parent"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        app:layout_constraintVertical_bias="0.114" />&ndash;&gt;-->
+
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/from"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:fontFamily="@font/alegreya_sans_sc_bold"-->
+    <!--        android:text="From"-->
+    <!--        android:textColor="#E91E63"-->
+    <!--        android:textSize="24sp"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.339"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"-->
+    <!--        app:layout_constraintVertical_bias="0.46" />-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/Convert"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="Convert"-->
+    <!--        android:textColor="#FFFFFF"-->
+    <!--        app:backgroundTint="#000000"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.498"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"-->
+    <!--        app:layout_constraintVertical_bias="0.696" />-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/to"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:fontFamily="@font/alegreya_sans_sc_bold"-->
+    <!--        android:text="To"-->
+    <!--        android:textColor="#E91E63"-->
+    <!--        android:textSize="24sp"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.319"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"-->
+    <!--        app:layout_constraintVertical_bias="0.542" />-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/timeZones"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:fontFamily="@font/alegreya_sans_sc_bold"-->
+    <!--        android:text="Time Zones"-->
+    <!--        android:textColor="#E91E63"-->
+    <!--        android:textSize="34sp"-->
+    <!--        android:textStyle="bold"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.498"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"-->
+    <!--        app:layout_constraintVertical_bias="0.367" />-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/tv_timer1"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:gravity="center"-->
+    <!--        android:hint="Select time"-->
+    <!--        android:shadowColor="#FFFFFF"-->
+    <!--        android:textColor="#FFFFFF"-->
+    <!--        android:textColorHint="#000000"-->
+    <!--        android:textSize="32sp"-->
+    <!--        android:textStyle="bold"-->
+    <!--        app:drawableTint="#FFFFFF"-->
+    <!--        app:drawableTopCompat="@drawable/ic_time"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.497"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"-->
+    <!--        app:layout_constraintVertical_bias="0.167" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
